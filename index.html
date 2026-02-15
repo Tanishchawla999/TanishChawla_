@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Creative Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <a href="#" class="logo">Portfolio</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-list" id="navList">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button class="dark-mode-toggle" id="darkModeToggle">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content fade-in">
+          <h1 class="hero-title">Hi, I'm <span>Tanish</span></h1>
+          <h2 class="hero-subtitle">Software Developer</h2>
+          <p class="hero-description">
+            I craft modern web applications using cutting-edge technologies.
+            From responsive frontends to RESTful APIs, I bring ideas to life
+            with clean code and thoughtful design.
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+          <a
+            href="#contact"
+            class="btn"
+            style="margin-left: 15px; background-color: var(--secondary)"
+            >Hire Me</a
+          >
+        </div>
+        <div class="hero-image fade-in">
+          <img
+            src="https://placehold.co/600x900/1e1e2c/f5f5f5?text=Developer+at+Work"
+            alt="Developer working at desk with laptop and coffee, modern home office setup with plants and minimal decor"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+            <h3 class="skill-name">HTML5</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 95%"></div>
+            </div>
+            <p>Semantic markup, accessibility, SEO best practices</p>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+            <h3 class="skill-name">CSS3</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 90%"></div>
+            </div>
+            <p>Flexbox, Grid, animations, responsive design</p>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-js"></i></div>
+            <h3 class="skill-name">JavaScript</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 85%"></div>
+            </div>
+            <p>DOM manipulation, async programming</p>
+          </div>
+
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-react"></i></div>
+            <h3 class="skill-name">React Native</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 80%"></div>
+            </div>
+            <p>Mobile apps, component architecture, hooks</p>
+          </div>
+
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+            <h3 class="skill-name">Node.js</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 70%"></div>
+            </div>
+            <p>Express, REST APIs, backend development</p>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+            <h3 class="skill-name">N8N</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 80%"></div>
+            </div>
+            <p>Workflow automation, API integrations</p>
+          </div>
+          <!-- <div class="skill-card fade-in">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <h3 class="skill-name">MongoDB</h3>
+          <div class="skill-level">
+            <div class="skill-level-bar" style="width: 35%"></div>
+          </div>
+          <p>Mongoose, NoSQL</p>
+        </div> -->
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+            <h3 class="skill-name">ExpressJS</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 80%"></div>
+            </div>
+            <p>Middleware, routing, API endpoints</p>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fas fa-database"></i></div>
+            <h3 class="skill-name">SQL</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 70%"></div>
+            </div>
+            <p>Queries, joins, database design, indexing</p>
+          </div>
+
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-java"></i></div>
+            <h3 class="skill-name">Java</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 80%"></div>
+            </div>
+            <p>OOP, multithreading, Jdbc</p>
+          </div>
+
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <h3 class="skill-name">C</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 100%"></div>
+            </div>
+            <p>Memory management, pointers, system programming</p>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <h3 class="skill-name">C# using .Net</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 60%"></div>
+            </div>
+            <p>ASP.NET, Entity Framework</p>
+          </div>
+
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-python"></i></div>
+            <h3 class="skill-name">Python</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 50%"></div>
+            </div>
+            <p>Data analysis, automation</p>
+          </div>
+
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-wordpress"></i></div>
+            <h3 class="skill-name">WordPress</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 100%"></div>
+            </div>
+            <p>Custom themes, plugins, WooCommerce</p>
+          </div>
+
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+            <h3 class="skill-name">Docker</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 100%"></div>
+            </div>
+            <p>Containerization, images, Docker Compose</p>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-jira"></i></div>
+            <h3 class="skill-name">Jira</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 100%"></div>
+            </div>
+            <p>Agile workflows, sprint planning, issue tracking</p>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-slack"></i></div>
+            <h3 class="skill-name">Slack</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 100%"></div>
+            </div>
+            <p>Team collaboration, bot integration, channels</p>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+            <h3 class="skill-name">Git & Github</h3>
+            <div class="skill-level">
+              <div class="skill-level-bar" style="width: 100%"></div>
+            </div>
+            <p>Version control, branching, pull requests</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+
+        <!-- <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div> -->
+
+        <div class="projects-container">
+          <div class="project-card fade-in" data-category="web">
+            <div class="project-image">
+              <img
+                src="https://placehold.co/600x400/1e1e2c/f5f5f5?text=Simon Game"
+                alt=""
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Simon Game</h3>
+              <p class="project-description">
+                The Simon Game is a classic electronic memory game that
+                challenges players to remember and reproduce an increasingly
+                long sequence of lights and sounds.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Html5</span>
+                <span class="project-tag">Css</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="https://tanishchawla999.github.io/SimonSays-Game/" target="_blank" class="project-link demo-link"
+                  >Live Demo</a
+                > -->
+                <a
+                  href="https://github.com/Tanishchawla999/SimonSays-Game.git"
+                  target="_blank"
+                  class="project-link code-link"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card fade-in" data-category="web">
+            <div class="project-image">
+              <img
+                src="https://placehold.co/600x400/1e1e2c/f5f5f5?text=Quora"
+                alt="Quora Blog"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Quora</h3>
+              <p class="project-description">
+                A web application that allows users to post questions, write
+                answers,and comment, similar to Quora. Built with a RESTful API
+                backend and a modern frontend. Features include user
+                authentication, CRUD operations for posts and answers, and
+                interactive voting.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">EJS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Css</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="#" target="_blank" class="project-link demo-link"
+                  >Live Demo</a
+                > -->
+                <a
+                  href="https://github.com/Tanishchawla999/Quora_Blog"
+                  target="_blank"
+                  class="project-link code-link"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card fade-in" data-category="Ai">
+            <div class="project-image">
+              <img
+                src="https://placehold.co/600x400/1e1e2c/f5f5f5?text=WhatsApp Bot"
+                alt="WhatsApp Bot"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">WhatsApp Bot</h3>
+              <p class="project-description">
+                Developed a smart WhatsApp bot using N8N that mimics a real
+                person’s chatting style with contextual and natural responses.
+                The bot can answer questions, share updates, and hold natural
+                conversations directly on WhatsApp — just like chatting with a
+                real person.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">N8N</span>
+                <span class="project-tag">Google Sheets</span>
+                <span class="project-tag">Google Gemini</span>
+                <span class="project-tag">Rss Feeds</span>
+                <span class="project-tag">WhatsApp Apis</span>
+              </div>
+              <div class="project-links">
+                <!-- add a demo video on this  -->
+                <!-- <a href="#" target="_blank" class="project-link demo-link"
+                  >Live Demo</a -->
+
+                <a
+                  href="https://github.com/Tanishchawla999/WhatsApp_BOT"
+                  target="_blank"
+                  class="project-link code-link"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card fade-in" data-category="web">
+            <div class="project-image">
+              <img
+                src="https://placehold.co/600x400/1e1e2c/f5f5f5?text=BookMyRoom"
+                alt="application to book rooms"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">BookMyRoom</h3>
+              <p class="project-description">
+                BookMyRoom is a site where you can easily book your room or rent
+                PGs (paying guests) or flats without any brokerage fees to
+                middlemen. It is especially designed for students who find it
+                hard to secure good PG accommodations
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Html5</span>
+                <span class="project-tag">Css</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="#" target="_blank" class="project-link demo-link"
+                  >Live Demo</a
+                > -->
+                <a
+                  href="https://github.com/Tanishchawla999/BOOKMYROOM.git"
+                  target="_blank"
+                  class="project-link code-link"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card fade-in" data-category="web">
+            <div class="project-image">
+              <img
+                src="https://placehold.co/600x400/1e1e2c/f5f5f5?text=ThemeChanger"
+                alt="Chrome extenstion"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">ThemeChanger</h3>
+              <p class="project-description">
+                A Theme Changer Chrome Extension lets users switch between
+                light, dark, or custom themes on websites. It improves comfort,
+                reduces eye strain, and personalizes the browsing experience by
+                changing the page’s appearance instantly.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Html5</span>
+                <span class="project-tag">Css</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!-- <a href="#" target="_blank" class="project-link demo-link"
+                  >Live Demo</a
+                > -->
+                <a
+                  href="https://github.com/Tanishchawla999/Theme-changer-chromeExtension"
+                  target="_blank"
+                  class="project-link code-link"
+                  >View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <div class="contact-info fade-in">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>Pune, India</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <a href="mailto:hello@example.com"
+                  >tanishchawla3132@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-text">
+                <h3>Phone</h3>
+                <a href="tel:+1234567890">+91 6206644930</a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="contact-form fade-in">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <a
+            href="https://github.com/Tanishchawla999"
+            target="_blank"
+            class="footer-link"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/tanish-chawla-8bb102300/"
+            target="_blank"
+            class="footer-link"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://x.com/Tanishc999" class="footer-link" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+        <p class="copyright">
+          © <span id="currentYear"></span> Tanish Chawla. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <div class="scroll-top" id="scrollTop">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+        const navList = document.getElementById("navList");
+
+        mobileMenuBtn.addEventListener("click", function () {
+          navList.classList.toggle("active");
+          mobileMenuBtn.innerHTML = navList.classList.contains("active")
+            ? '<i class="fas fa-times"></i>'
+            : '<i class="fas fa-bars"></i>';
+        });
+
+        // Close mobile menu when clicking a nav link
+        const navLinks = document.querySelectorAll(".nav-link");
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function () {
+            navList.classList.remove("active");
+            mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+          });
+        });
+
+        // Dark Mode Toggle
+        const darkModeToggle = document.getElementById("darkModeToggle");
+        darkModeToggle.addEventListener("click", function () {
+          document.body.classList.toggle("dark-mode");
+          darkModeToggle.innerHTML = document.body.classList.contains(
+            "dark-mode"
+          )
+            ? '<i class="fas fa-sun"></i>'
+            : '<i class="fas fa-moon"></i>';
+        });
+
+        // Project Filter
+        const filterBtns = document.querySelectorAll(".filter-btn");
+        const projectCards = document.querySelectorAll(".project-card");
+
+        filterBtns.forEach((btn) => {
+          btn.addEventListener("click", function () {
+            // Remove active class from all buttons
+            filterBtns.forEach((btn) => btn.classList.remove("active"));
+            // Add active class to clicked button
+            this.classList.add("active");
+
+            const filterValue = this.getAttribute("data-filter");
+
+            projectCards.forEach((card) => {
+              if (
+                filterValue === "all" ||
+                card.getAttribute("data-category") === filterValue
+              ) {
+                card.style.display = "block";
+              } else {
+                card.style.display = "none";
+              }
+            });
+          });
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute("href");
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+              window.scrollTo({
+                top: targetElement.offsetTop - 70,
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+
+        // Scroll To Top Button
+        const scrollTopBtn = document.getElementById("scrollTop");
+
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > 300) {
+            scrollTopBtn.classList.add("active");
+          } else {
+            scrollTopBtn.classList.remove("active");
+          }
+        });
+
+        scrollTopBtn.addEventListener("click", function () {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+
+        // Set current year in footer
+        document.getElementById("currentYear").textContent =
+          new Date().getFullYear();
+
+        // Form submission
+        const contactForm = document.getElementById("contactForm");
+
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Thank you for your message! I will get back to you soon.");
+          this.reset();
+        });
+
+        // Intersection Observer for animations
+        const fadeElements = document.querySelectorAll(".fade-in");
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.style.opacity = "1";
+                entry.target.style.transform = "translateY(0)";
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+
+        fadeElements.forEach((el) => {
+          el.style.opacity = "0";
+          el.style.transform = "translateY(20px)";
+          el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+          observer.observe(el);
+        });
+      });
+    </script>
+  </body>
+</html>
